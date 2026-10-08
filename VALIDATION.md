@@ -59,3 +59,5 @@ The local kernel emitted sandbox-related cleanup warnings after executing cells.
 - The original uncertainty around PCA interpretation, arbitrary component signs, missing responses, and averaging is retained in accessible wording.
 
 The revised notebook completed all cells on PG and Full in local Jupyter kernels. An additional PG run tested alternate questions (Arousal/Fear), components (2/3), and the every-sixth-picture display. All consistency checks passed.
+
+Colab presentation was verified on the published revision: all nine code cells displayed Show code controls rather than their source, named question dropdowns and bounded component dropdowns were visible, and picture size rendered as a slider.
