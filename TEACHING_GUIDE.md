@@ -28,7 +28,7 @@ First show the pictures and means. Ask students to predict or sketch the distrib
 
 ## 3 · Name a component and challenge the name
 
-This activity sits after the weights and before the full maps. Students inspect two sets of weights, enter their proposed axis names, and predict a displayed example's direction relative to zero. Three examples support repeated predictions. Both axis names are required before a position is revealed.
+This activity sits after the weights and before the full maps. Students inspect one component's weights and two pictures, name the component, and predict how the pictures differ on their proposed dimension. They then reveal both scores on a single axis and interpret the positions using the weights. A component name and a written prediction are required before revealing. Three picture pairs support repeated comparisons; students need not predict left or right.
 
 Students should cite weights and an example that supports their interpretation, then discuss a counterexample. Pictures are unseen in the activity, not held-out observations used for independent statistical validation.
 

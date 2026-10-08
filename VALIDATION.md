@@ -72,3 +72,7 @@ Checks covered six stable picture identities in both datasets, the similar-mean 
 Public notebook outputs retain only original PG analysis examples. No synthetic forecasts, AI comparison values, widget-state predictions, histogram-reveal answers, or component-challenge answers are saved in the published artifact.
 
 Browser-only execution of the new interactive widgets remains a classroom check. Core ipywidgets are supported by Colab; local callback tests verify the implemented logic but do not substitute for a new Colab runtime test.
+
+## Single-component interpretation activity
+
+Locally executed with PG and Full: initial preview, missing-input guard, and all three picture pairs for components 1–3. Revealed scores match the fitted PCA scores; each reveal contains two points on one axis. The default activity has no saved answers. The revised reveal figure was visually inspected.
