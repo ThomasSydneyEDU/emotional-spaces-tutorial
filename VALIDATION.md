@@ -43,6 +43,8 @@ The notebook uses centered, unstandardized PCA, matching the main MATLAB helper.
 
 ## Remaining verification
 
-An actual Colab session has not yet been tested. The versioned download links are configured; a fresh-kernel download test follows publication. MATLAB startup was blocked, so this is not a direct comparison with a successful MATLAB run. Source preservation, published handout values, and independent numerical calculations provide the current validation evidence.
+The published notebook opened successfully in Colab, with dataset and parameter controls visible. Both real GitHub release downloads were then tested in clean local Jupyter sessions, with no dataset files present initially. All notebook cells passed on both downloaded datasets, including archive checksum validation. This local download test used macOS trusted certificates because the bundled Python certificate store did not recognize the local network issuer; certificate verification stayed enabled.
+
+Execution on a Google-hosted Colab runtime remains to be tested: the browser was not signed into Google. MATLAB startup was blocked, so this is not a direct comparison with a successful MATLAB run. Source preservation, published handout values, and independent numerical calculations provide the current validation evidence.
 
 The local kernel emitted sandbox-related cleanup warnings after executing cells. These did not cause cell errors or affect returned results.
