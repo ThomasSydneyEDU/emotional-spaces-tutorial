@@ -45,6 +45,17 @@ The notebook uses centered, unstandardized PCA, matching the main MATLAB helper.
 
 The published notebook opened successfully in Colab, with dataset and parameter controls visible. Both real GitHub release downloads were then tested in clean local Jupyter sessions, with no dataset files present initially. All notebook cells passed on both downloaded datasets, including archive checksum validation. This local download test used macOS trusted certificates because the bundled Python certificate store did not recognize the local network issuer; certificate verification stayed enabled.
 
-Execution on a Google-hosted Colab runtime remains to be tested: the browser was not signed into Google. MATLAB startup was blocked, so this is not a direct comparison with a successful MATLAB run. Source preservation, published handout values, and independent numerical calculations provide the current validation evidence.
+The course author subsequently tested the first published notebook in Colab and reported that it ran successfully. The revised student-facing edition is checked locally again; its Colab presentation is verified separately. MATLAB startup was blocked, so this is not a direct comparison with a successful MATLAB run. Source preservation, published handout values, and independent numerical calculations provide the current validation evidence.
 
 The local kernel emitted sandbox-related cleanup warnings after executing cells. These did not cause cell errors or affect returned results.
+
+## Student-facing revision
+
+- All calculation cells use Colab form view and open with their code hidden.
+- Question controls use emotion names; component controls allow only values 1–7.
+- Sampling choices use readable labels and thumbnail size uses a bounded slider.
+- Instructions explain play buttons, saved examples, changing choices, and restarting a session.
+- Sections give concrete actions and discussion questions. Technical output is reduced while analytical methods stay the same.
+- The original uncertainty around PCA interpretation, arbitrary component signs, missing responses, and averaging is retained in accessible wording.
+
+The revised notebook completed all cells on PG and Full in local Jupyter kernels. An additional PG run tested alternate questions (Arousal/Fear), components (2/3), and the every-sixth-picture display. All consistency checks passed.

@@ -10,7 +10,11 @@ An interactive psychology tutorial exploring emotional ratings of IAPS images th
 2. Save a personal copy using **File → Save a copy in Drive** if you want to retain your changes and results.
 3. Connect to a runtime. Use the default CPU runtime; a GPU is unnecessary.
 4. Leave **PG** selected in the first code cell and run the cells in order with the play buttons.
-5. Change an image, question, or component control and rerun that cell to explore another example.
+5. Change an image, question, or component control and rerun that activity to explore another example.
+
+**No programming is required.** Calculations open with code hidden, leaving the play buttons, controls, and figures visible. Questions use named dropdowns, components use bounded dropdowns, and picture size uses a slider. Choose **Show code** if you want to inspect the calculations.
+
+Work through the activities in order. Each section gives a task, an exploration, and discussion prompts. The figures shown before you run an activity are saved PG examples. The final numerical check is optional.
 
 The setup cell automatically downloads the selected dataset. No MATLAB installation or manual file uploads are needed. If you change datasets, run the setup cell and all following cells again. After a runtime reset, rerun setup to restore the data.
 
