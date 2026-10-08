@@ -61,3 +61,14 @@ The local kernel emitted sandbox-related cleanup warnings after executing cells.
 The revised notebook completed all cells on PG and Full in local Jupyter kernels. An additional PG run tested alternate questions (Arousal/Fear), components (2/3), and the every-sixth-picture display. All consistency checks passed.
 
 Colab presentation was verified on the published revision: all nine code cells displayed Show code controls rather than their source, named question dropdowns and bounded component dropdowns were visible, and picture size rendered as a slider.
+
+
+## Investigation extensions
+
+Default runs completed on PG and Full. A separate interaction run exercised saving forecasts, refusing unconfirmed defaults, switching pictures, restoring backups, histogram reveals, named-axis position reveals, AI input parsing, comparisons, and downloads (with download opening replaced by a local no-op in tests). Only synthetic AI values were used; no model was queried or image sent to an AI service.
+
+Checks covered six stable picture identities in both datasets, the similar-mean contrasting-spread pair, subset PCA orthonormality and reconstruction, exact recovery of the original fit when selecting all pictures, and exact component matching after a known permutation and sign reversal. AI validation accepted valid decimal ratings and JSON fences and rejected missing/duplicate labels, out-of-range ratings, booleans, numeric strings, and nonfinite values. Exported participant means and predictions matched the completed comparison.
+
+Public notebook outputs retain only original PG analysis examples. No synthetic forecasts, AI comparison values, widget-state predictions, histogram-reveal answers, or component-challenge answers are saved in the published artifact.
+
+Browser-only execution of the new interactive widgets remains a classroom check. Core ipywidgets are supported by Colab; local callback tests verify the implemented logic but do not substitute for a new Colab runtime test.

@@ -9,7 +9,7 @@ An interactive psychology tutorial exploring emotional ratings of IAPS images th
 1. Click **Open in Colab** above and sign in to your Google account if prompted.
 2. Save a personal copy using **File → Save a copy in Drive** if you want to retain your changes and results.
 3. Connect to a runtime. Use the default CPU runtime; a GPU is unnecessary.
-4. Leave **PG** selected in the first code cell and run the cells in order with the play buttons.
+4. Leave **PG** selected in the first code cell and run the activities in order with the play buttons. **Avoid Run all on your first visit:** make predictions before revealing results.
 5. Change an image, question, or component control and rerun that activity to explore another example.
 
 **No programming is required.** Calculations open with code hidden, leaving the play buttons, controls, and figures visible. Questions use named dropdowns, components use bounded dropdowns, and picture size uses a slider. Choose **Show code** if you want to inspect the calculations.
@@ -32,6 +32,18 @@ PG excludes the disgust and erotic categories and is the default. It still conta
 
 The notebook brings explanations, questions, executable code, and figures together. It preserves the original tutorial's Parts 1–5 and uses image numbers beginning at 1.
 
+## Investigations
+
+1. **Predict before you peek:** forecast participant averages for six pictures using sliders; save and restore predictions as JSON.
+2. **The average hides the argument:** reveal different distributions behind nearly identical averages.
+3. **Name and challenge a component:** make directional predictions from question weights, then reveal a new example's position.
+4. **Change the stimulus sample:** refit PCA on selected categories and compare aligned maps and question weights.
+5. **Optional AI finale:** download the labelled pictures and a standard prompt, ask ChatGPT for human-rating predictions, paste the response, and compare it with student forecasts and participant means.
+
+The AI activity uses your own ChatGPT account and manual image attachment. No API key is needed, and the notebook does not contact an AI service or upload images automatically. The other activities do not require ChatGPT. All student forecasts start empty and stay in the runtime unless downloaded. Rerunning setup resets them; use a downloaded backup to restore them.
+
+The prediction exercise asks for forecasts of **average participant ratings**, rather than personal emotional self-reports. This gives student and AI forecasts the same comparison target.
+
 ## Data
 
 The ratings are from the course author's laboratory. Stimulus images are from the International Affective Picture System (IAPS), as identified by the course author. These descriptions identify provenance; this repository does not add a new license for the stimulus images.
@@ -47,9 +59,9 @@ Each archive contains ratings, image/question metadata, and lossless PNG images.
 
 ## Methods and validation
 
-Individual-response correlations use pairwise complete observations. PCA uses centered, unstandardized image means. Component signs can flip without changing the solution. See [VALIDATION.md](VALIDATION.md) for numerical checks and remaining verification.
+Individual-response correlations use pairwise complete observations. PCA uses centered, unstandardized image means. Component signs can flip without changing the solution. See [VALIDATION.md](VALIDATION.md) for numerical checks and remaining verification. The [teaching guide](TEACHING_GUIDE.md) outlines the new activities and discussion goals.
 
-The notebook includes saved PG output so it can be reviewed before execution. Only the notebook and documentation are stored in the Git history; data archives are release assets.
+The original analysis figures include saved PG examples. Investigation activities open without saved answers, so students can make predictions before revealing results. Only the notebook and documentation are stored in the Git history; data archives are release assets.
 
 ## Troubleshooting
 
