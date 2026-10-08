@@ -1,0 +1,22 @@
+{
+  "pg": {
+    "filename": "emotionalspaces_pg.zip",
+    "sha256": "96b8306d92dbd2357e56170fe09f81362d304f2f1e5be70b6af059ce886c4c05",
+    "bytes": 44469838,
+    "shape": [
+      399,
+      375,
+      7
+    ]
+  },
+  "full": {
+    "filename": "emotionalspaces_full.zip",
+    "sha256": "c40b587b06ec7fb58b249a3a4a9aeae8a627f0c6d56b1df32e9f7a240b15a2dd",
+    "bytes": 63327812,
+    "shape": [
+      399,
+      525,
+      7
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Downloaded datasets and local runtime files
+*.zip
+*.download
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
