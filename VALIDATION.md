@@ -76,3 +76,7 @@ Browser-only execution of the new interactive widgets remains a classroom check.
 ## Single-picture component prediction activity
 
 Locally executed with PG and Full: all three pictures for components 1–3, blank-input guard, and actual reveal-button callbacks. Each reveal contains predicted and actual positions on one axis; the actual position matches the fitted PCA score. Slider bounds cover the dataset's component scores. Published activity outputs remain empty.
+
+## Copied AI response quotes
+
+The reader normalizes curly double quotes to straight JSON quotes. The reported Claude response parses without altering any of its 42 ratings. Straight-quote and fenced JSON still parse; out-of-range values, booleans, nonfinite values, duplicate labels, incomplete and malformed objects remain rejected.
