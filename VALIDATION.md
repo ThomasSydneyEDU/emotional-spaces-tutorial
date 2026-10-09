@@ -73,6 +73,6 @@ Public notebook outputs retain only original PG analysis examples. No synthetic 
 
 Browser-only execution of the new interactive widgets remains a classroom check. Core ipywidgets are supported by Colab; local callback tests verify the implemented logic but do not substitute for a new Colab runtime test.
 
-## Single-component interpretation activity
+## Single-picture component prediction activity
 
-Locally executed with PG and Full: initial preview, missing-input guard, and all three picture pairs for components 1–3. Revealed scores match the fitted PCA scores; each reveal contains two points on one axis. The default activity has no saved answers. The revised reveal figure was visually inspected.
+Locally executed with PG and Full: all three pictures for components 1–3, blank-input guard, and actual reveal-button callbacks. Each reveal contains predicted and actual positions on one axis; the actual position matches the fitted PCA score. Slider bounds cover the dataset's component scores. Published activity outputs remain empty.

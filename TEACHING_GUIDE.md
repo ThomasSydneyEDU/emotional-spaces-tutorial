@@ -28,7 +28,7 @@ First show the pictures and means. Ask students to predict or sketch the distrib
 
 ## 3 · Name a component and challenge the name
 
-This activity sits after the weights and before the full maps. Students inspect one component's weights and two pictures, name the component, and predict how the pictures differ on their proposed dimension. They then reveal both scores on a single axis and interpret the positions using the weights. A component name and a written prediction are required before revealing. Three picture pairs support repeated comparisons; students need not predict left or right.
+Students inspect one picture and one component's weights, name the component, and use a slider to predict its approximate position. The reveal compares the estimate and actual position on one axis. Connect the reasoning to Investigation 1: expected ratings on individual questions contribute according to their signed weights. Students should predict a broad position rather than calculate an exact score. A name and confirmation of the prediction are required before revealing. Changing the picture or component starts a fresh prediction.
 
 Students should cite weights and an example that supports their interpretation, then discuss a counterexample. Pictures are unseen in the activity, not held-out observations used for independent statistical validation.
 
