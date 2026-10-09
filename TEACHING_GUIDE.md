@@ -44,13 +44,13 @@ A maximum-similarity assignment matches all seven weight vectors to their origin
 
 ## 5 · Optional AI comparison
 
-The notebook prepares a labelled contact sheet, individually named image files, and an identical prompt for everyone. It exports only image stimuli, without student or participant ratings. Students choose whether to attach them in their own ChatGPT conversation. The instructions follow [official OpenAI image-input guidance](https://learn.chatgpt.com/docs/image-inputs).
+The notebook prepares a labelled contact sheet and an identical prompt for everyone. It exports only image stimuli, without student or participant ratings. Students choose whether to attach them in their own ChatGPT conversation. The instructions follow [official OpenAI image-input guidance](https://learn.chatgpt.com/docs/image-inputs).
 
-The prompt asks for average human ratings, specifies all seven scale anchors, and requests six labelled arrays of numeric values. It asks the model to state limitations instead of fabricating ratings. Students enter the displayed model name and date, paste the response, and compare it with their saved forecasts and participant averages.
+The prompt asks for average human ratings, specifies all seven scale anchors, and requests six labelled arrays of numeric values. It asks the model to state limitations instead of fabricating ratings. Students enter the displayed model name, paste the response, and compare it with their saved forecasts and participant averages.
 
 Validation rejects missing/duplicate/extra labels, wrong lengths, nonnumeric values, nonfinite values, and ratings outside 1–9. A model refusal or incomplete answer is a limitation to discuss, not a reason to manufacture data. Students can skip the finale.
 
-Plots show rating profiles for each picture. Tables report average absolute differences by question and picture. The comparison can be downloaded with model/date, prompt, picture identities, forecasts, and participant means. It contains the last successful comparison snapshot, rather than silently recomputing it after later edits.
+Plots show rating profiles for each picture. Tables report average absolute differences by question and picture. The comparison can be downloaded with model name, prompt, picture identities, forecasts, and participant means. It contains the last successful comparison snapshot, rather than silently recomputing it after later edits.
 
 **Learning goal:** evaluate predictions against a reference, inspect specific errors, and limit conclusions. These 42 ratings are nested within six selected images and seven related questions; they are not 42 independent trials. Participant means are not universal emotional truths. Close AI predictions do not demonstrate emotional experience. Published stimuli may have appeared in model training; the prompt cannot guarantee their novelty.
 
